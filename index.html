@@ -22,39 +22,7 @@
   </head>
 
   <body>
-    <!--
-    <div id="container">
-      <video id="background_video" loop muted></video>
-      <div id="video_cover"></div>
-      <div id="overlay"></div>
-  
-      <div id="video_controls">
-        <span id="play">
-          <img src="play.png">
-        </span>
-        <span id="pause">
-          <img src="pause.png">
-        </span>
-      </div>
-  
-      <section id="main_content">
-        <div id="head">
-          <h1>Bideo.js</h1>
-          <p class="sub_head">A JS library that makes it super easy to add fullscreen background videos.</p>
-          <p class="info">(Hold on! The video might take a while to load.)</p>
-        </div>
-  
-        <div id="links">
-          <a href="https://github.com/rishabhp/bideo.js">View on Github</a>
-          <a href="http://codetheory.in/html5-fullscreen-background-video/">How it works</a>
-        </div>
-      </section>
-    </div>  -->
-    <video id="background_video" loop muted></video>
-    <div id="video_cover"></div>
-    <div id="overlay"></div>
-
-    <div id="main_content">
+    <div class="box">
 
       <div class="card mb-3">
         <div class="row no-gutters">
@@ -131,27 +99,27 @@
           </div>
         </div>
       </div>
+    </div>
 
 
 
 
+    <script defer src="vendor/fontawesome/js/all.js"></script> <!--load all styles -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <script defer src="vendor/fontawesome/js/all.js"></script> <!--load all styles -->
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async
-        src="https://www.googletagmanager.com/gtag/js?id=G-PZMC9DKXN3"></script>
-      <script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PZMC9DKXN3"></script>
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-PZMC9DKXN3');
     </script>
-      <script src="bower_components/bideo.js/bideo.js"></script>
-      <script src="js/main.js"></script>
-    </body>
+    <script src="bower_components/bideo.js/bideo.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 
-  </html>
+</html>
