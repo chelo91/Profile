@@ -39,3 +39,8 @@ body {
     text-align: left !important;
   }
 }
+@media screen and (max-width: 551px){
+  .box{
+    display: block;
+  }
+}
