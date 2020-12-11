@@ -4,12 +4,13 @@
   padding: 10px;
 }
 
-html, body {
+html,
+body {
   color: white;
   background-color: rgb(19, 18, 35);
 }
 
-.card{
+.card {
   background-color: transparent;
 }
 
@@ -18,4 +19,23 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media screen and (min-width: 1135px) {
+  #colPho {
+    text-align: right !important;
+  }
+  #colNam {
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  #colPho {
+    text-align: right !important;
+  }
+  #colNam {
+    text-align: left !important;
+  }
 }
